@@ -1,1 +1,15 @@
-header{}
+header{
+    font-family: 'Open Sans', sans-serif;
+    color:#e5e521;
+    height: 90px;
+    background-color: #362626;
+      
+}
+header p{
+    color: white;   
+    display: inline-block;
+    float: right
+}
+.allign{
+    display: inline-block
+}
