@@ -3,13 +3,25 @@ header{
     color:#e5e521;
     height: 90px;
     background-color: #362626;
-      
+    padding:3px;  
 }
 header p{
     color: white;   
     display: inline-block;
-    float: right
+    float: right;
 }
 .allign{
     display: inline-block
+}
+h1{
+    width: 200px;
+    float: left;
+}
+p{
+    width: 250px
+}
+.image {
+    background-size: 100%
+    height: 50%;
+    
 }
