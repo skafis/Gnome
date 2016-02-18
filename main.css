@@ -1,3 +1,6 @@
+html{
+    background-color: #e3dcdc
+}
 body{
     padding: 5px;
 }
@@ -21,7 +24,7 @@ h1{
     float: left;
 }
 p{
-    width: 250px
+    width: auto;
 }
 .image {
     background-image: url("assets/big_img.jpg");
@@ -41,7 +44,6 @@ img {
     padding-left: 30px; 
 }
 hr{
-    width: 300px;
     float: left;
 }
 h4{
@@ -63,11 +65,14 @@ button{
 }
 
 .blog {
+    background-color: white;
     width: auto;
-    height: 15%
+    height: 15%;
+    padding: 10px;
 }
 
 .collection {
+    background-color: white;
     padding: 20px;
     width: 100%;
     float: left;
@@ -81,4 +86,76 @@ button{
     padding:15px;
     font-size: 20px;
     justify-content: center;
+}
+
+.img {
+
+}
+
+.text {
+    float: left;
+    width: 49%;
+}
+
+.img {
+    float: right
+}
+
+.pic {
+    width: 49%;
+    float: right;
+    padding-left: 5px;
+}
+
+
+
+.text2 {
+    float: right;
+    width: 50%;
+}
+
+.container2 {
+    background-color: white;
+    width: auto;
+    display:inline-block;
+}
+
+.pic2 {
+    float: left;
+
+}
+
+.adspace {
+    background-color: #56ff56;
+    width: auto;
+    height: 200px;
+    text-align: center;
+}
+
+.ads {
+    color: white;
+    font-size: 35px;
+/*    padding-left: 40%;*/
+    padding-top: 5%
+}
+
+.text4 {
+    background-color: white;
+    width: auto;
+    text-align: inherit;
+}
+
+.footer {
+    height: 120px;
+    background-color: grey;
+    color: #eaea50;
+    text-align: center;
+    padding-top: 75px;
+
+}
+
+.left {
+    background-color: white;
+    width: auto;
+    display: inline-block;
 }
